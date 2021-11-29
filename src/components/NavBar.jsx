@@ -8,7 +8,7 @@ const NavBar = () => {
         <AppBar position="relative">
             <Wrapper>
                 <Left>
-                    <Link to='/' style={{textDecoration: "none", color: "white"}}><Logo>Beverage Store</Logo></Link>
+                    <Link to='/' style={{textDecoration: "none", color: "white"}}><Logo>COD.ER $HO.P</Logo></Link>
                 </Left>
                 <Center>
                     <Link to='/category/9' style={{textDecoration: "none", color: "white"}}><MenuItem>Sin Alcohol</MenuItem></Link>
@@ -18,7 +18,10 @@ const NavBar = () => {
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
                     <MenuItem>SIGN IN</MenuItem>
-                    <MenuItem><CartWidget /></MenuItem>
+
+
+                    //agregamos el link al cart
+                    <MenuItem><Link to='/cart' style={{textDecoration: "none", color: "white"}}><CartWidget /></Link></MenuItem>
                 </Right>
             </Wrapper>
         </AppBar>
