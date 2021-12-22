@@ -68,7 +68,7 @@ const Info = styled.div`
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 3;
     diplay: flex;
     align-items: center;

@@ -1,3 +1,5 @@
+
+//quedo seteado desde la primer entrega del proyecto
 let is_ok = true;
 
 const customFetch = (time, task) => {

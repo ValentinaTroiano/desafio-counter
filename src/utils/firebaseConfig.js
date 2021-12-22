@@ -1,3 +1,5 @@
+//necesite ver la clase de firebase varias veces para agarrarle la mano pero espero que este un poco bien
+
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 

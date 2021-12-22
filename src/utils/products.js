@@ -1,3 +1,5 @@
+//utilice los productos del profe dados en clase
+
 const products = [
     {
       id: 30,

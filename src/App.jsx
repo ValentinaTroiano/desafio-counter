@@ -1,4 +1,6 @@
 
+//enlazando las carpetas para la vizualizacion
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cart from "./components/Cart";
 import CartContextProvider from "./components/CartContext";

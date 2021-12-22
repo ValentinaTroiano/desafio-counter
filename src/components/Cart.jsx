@@ -177,7 +177,7 @@ const Cart = () => {
                                 <SummaryItemText>Total</SummaryItemText>
                                 <SummaryItemPrice><FormatNumber number={test.calcTotal()} /></SummaryItemPrice>
                             </SummaryItem>
-                            <Button onClick={createOrder}>CHECKOUT NOW</Button>
+                            <Button onClick={createOrder}>CHECKOUT</Button>
                         </Summary>
                 }
             </Bottom>
